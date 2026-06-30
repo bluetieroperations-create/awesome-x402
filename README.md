@@ -821,6 +821,9 @@ Connect with the x402 community.
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
 - [Orbis API Marketplace](https://orbisapi.com) - x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
+-  [Blackwall](https://agent-egress-proxy.onrender.com) - Pre-signature payment-risk oracle: returns **GO / HOLD / STOP** before an agent signs an x402 payment, from on-chain counterparty reputation (settlement/dispute history), price-anomaly vs the counterparty's own median, and OFAC sanctions screening. Verdict-only, never custody. Value-aligned pricing (free under $10 at-risk). Also an MCP server (`forecast_payment`). Live on **Base Sepolia** (testnet); mainnet next. ([Discovery](https://agent-egress-proxy.onrender.com/.well-known/x402))
+
+
 Projects building with or extending x402.
 
 ### Infrastructure
